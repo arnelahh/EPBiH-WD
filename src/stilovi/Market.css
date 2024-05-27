@@ -1,0 +1,133 @@
+/* src/stilovi/Market.css */
+
+.market {
+    padding: 20px;
+    text-align: center;
+}
+
+.market-header {
+    margin-bottom: 20px;
+}
+
+.market-header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.market-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.info-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info-card img {
+    width: 100%;
+    height: auto;
+}
+
+.info-content {
+    padding: 15px;
+}
+
+.info-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #6d6d6d;
+}
+
+.info-content p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.grid-content {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.grid-item {
+    border-radius: 8px;
+    width: 45%;
+    text-align: left;
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-content h1 {
+    margin-top: 20%;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.grid-content p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.customer-info {
+    text-align: left;
+    max-width: 800px;
+}
+
+.customer-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+
+}
+
+.customer-info p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.customer-info ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+.obrasci{
+    color: red;
+    cursor: pointer;
+}
+.customer-info h3{
+    color: #6d6d6d;
+}
