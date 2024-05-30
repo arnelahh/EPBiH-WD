@@ -9,7 +9,7 @@ function Home() {
                 <img src="https://img.freepik.com/free-photo/aerial-view-business-data-analysis-graph_53876-146152.jpg" alt="Hero" className="hero-image" />
             </section>
             <section className="features">
-                <div className="feature-item">E-račun</div>
+                <Link to="/login" className="no-text-decoration"><div className="feature-item">E-račun</div></Link>
                 <div className="feature-item">Plaćanje računa</div>
                 <div className="feature-item">Status zahtjeva</div>
                 <Link to="/calculator" className="no-text-decoration">

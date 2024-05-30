@@ -22,9 +22,9 @@
 
 .calculator-selection {
     display: flex;
-    justify-content: space-around;
     width: 100%;
-    max-width: 600px;
+    margin-left: 96.5vh;
+    gap: 16px;
     margin-bottom: 20px;
 }
 

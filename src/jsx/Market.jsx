@@ -45,7 +45,7 @@ function Market() {
                   energijom, u periodu ne dužem od 60 dana, kada odabrani snabdjevač prestane da vrši snabdijevanje
                   kvalifikovanog kupca električnom energijom. Javne i rezervne snabdjevače u Federaciji BiH je imenovala
                   Vlada Federacije BiH.</p>
-                <p className={"link"}>+Detaljnije</p>
+                <p className="link">+Detaljnije</p>
               </div>
               <div className={"grid-item"}>
                 <img src={"https://www.epbih.ba/img/s/700x700/upload/images/v2/pages/ilustracije/Depositphotos_182636538_original.jpg"}/>

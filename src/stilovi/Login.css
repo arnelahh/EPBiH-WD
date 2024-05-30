@@ -1,0 +1,116 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-header {
+    margin-bottom: 20px;
+}
+
+.login-main {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+
+}
+
+.login-image {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 20px;
+}
+
+.login-profile-picture{
+    border-radius: 50%;
+    width: 5%;
+    height: 5%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-icon {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-input {
+    width: 90%;
+    margin: 10px 0 20px;
+}
+
+.login-input label {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-links {
+    margin-bottom: 20px;
+}
+
+.login-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
+}
+
+.login-buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.register-button, .login-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-button {
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.register-button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.login-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
