@@ -1,0 +1,91 @@
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import '../stilovi/Register.css';
+
+function Register() {
+    const navigate = useNavigate();
+    const [formData, setFormData] = useState({
+        username: '',
+        email: '',
+        number: '',
+        password: '',
+        confirmPassword: ''
+    });
+
+    const handleChange = (event) => {
+        const { name, value } = event.target;
+        setFormData({
+            ...formData,
+            [name]: value
+        });
+    };
+
+    const handleSubmit = async (event) => {
+        event.preventDefault(); // Prevents the default form submit behavior
+
+        try {
+            const response = await fetch('http://localhost:3001/server/register', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            });
+
+            if (response.ok) {
+                console.log('Form submitted', formData);
+                navigate('/');
+            } else {
+                const errorText = await response.text();
+                console.error('Failed to register user:', errorText);
+            }
+        } catch (error) {
+            console.error('Error submitting form:', error);
+        }
+    };
+
+    return (
+        <div className="register-container">
+            <header className="register-header">
+                <img src="src/slike%20ep/kalkulator.jpg" alt="Kalkulator" className="register-image"/>
+                <h1>Registracija</h1>
+            </header>
+            <main className="register-main">
+                <section className="register-section">
+                    <div className="register-form">
+                        <div className="register-icon">
+                            <i className="fa fa-user-circle" aria-hidden="true"></i>
+                        </div>
+                        <form onSubmit={handleSubmit} autoComplete="off">
+                            <div className="register-input">
+                                <label htmlFor="username">Korisničko ime</label>
+                                <input type="text" id="username" name="username" required autoComplete="new-username" value={formData.username} onChange={handleChange} />
+                            </div>
+                            <div className="register-input">
+                                <label htmlFor="email">E-mail</label>
+                                <input type="email" id="email" name="email" required autoComplete="new-email" value={formData.email} onChange={handleChange} />
+                            </div>
+                            <div className="register-input">
+                                <label htmlFor="number">Broj telefona</label>
+                                <input type="tel" id="number" name="number" required autoComplete="new-number" value={formData.number} onChange={handleChange} />
+                            </div>
+                            <div className="register-input">
+                                <label htmlFor="password">Šifra</label>
+                                <input type="password" id="password" name="password" required autoComplete="new-password" value={formData.password} onChange={handleChange} />
+                            </div>
+                            <div className="register-input">
+                                <label htmlFor="confirm-password">Potvrdite šifru</label>
+                                <input type="password" id="confirm-password" name="confirmPassword" required autoComplete="new-password" value={formData.confirmPassword} onChange={handleChange} />
+                            </div>
+                            <div className="register-buttons">
+                                <button type="submit" className="register-button">Registrujte se</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </main>
+        </div>
+    );
+}
+
+export default Register;

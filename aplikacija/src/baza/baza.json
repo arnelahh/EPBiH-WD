@@ -1,0 +1,16 @@
+[
+  {
+    "username": "Mujo",
+    "email": "hamza.gacic.22@size.ba",
+    "number": "Mujo",
+    "password": "12345",
+    "confirmPassword": "12345"
+  },
+  {
+    "username": "Ermin",
+    "email": "ermin@gmail.com",
+    "number": "1234",
+    "password": "123",
+    "confirmPassword": "123"
+  }
+]

@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.App-logo {
+  height: 40px;
+  padding-top: 8px;
+  padding-right: 20px;
+}
+
+.App-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.App-nav a:active {
+  border-bottom: 2px solid #437EF7;
+}
+
+.hero-section {
+  margin: 20px 0;
+}
+
+.hero-image {
+  width: 80%;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.feature-item {
+  margin: 0 10px;
+  padding: 10px 20px;
+  color: #333;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feature-item:hover {
+  background-color: #437EF7;
+  color: white;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.service-item {
+  width: 15.5%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.service-item:hover {
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+  background-color: #eee;
+}
+
+.service-item img {
+  width: 100%;
+  height: 75%;
+  border-radius: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+footer {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.social-icons img {
+  height: 20px;
+  margin: 0 5px;
+}
+
+.twittercic {
+  scale: 1.1;
+}
+
+.logo-name {
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  text-decoration: none;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #437EF7;
+  font-weight: bold;
+}
+
+.App-login {
+  background-color: #437EF7;
+  color: white; /* Ensure the text is always white */
+  padding: 7px 15px;
+  border-radius: 5px;
+  text-decoration: none; /* Ensure the text is not underlined */
+}
+
+.App-login:hover {
+  background-color: #437EF7;
+  color: white; /* Ensure the text remains white on hover */
+}
