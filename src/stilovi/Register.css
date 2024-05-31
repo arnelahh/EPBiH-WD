@@ -3,30 +3,34 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background-color: #f4f4f4;
+    height: 100vh;
+    background-color: #f5f5f5;
 }
 
 .register-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 20px;
-}
-
-.register-main {
-    background: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.register-section {
-    text-align: center;
 }
 
 .register-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.register-main {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.register-section {
+    width: 100%;
 }
 
 .register-form {
@@ -37,13 +41,12 @@
 
 .register-icon {
     font-size: 50px;
-    color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .register-input {
-    margin-bottom: 15px;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .register-input label {
@@ -55,23 +58,23 @@
 .register-input input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .register-buttons {
+    width: 100%;
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .register-button {
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
     background-color: #007bff;
-    color: #fff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .register-button:hover {

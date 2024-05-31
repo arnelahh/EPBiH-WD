@@ -1,32 +1,31 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './stilovi/App.css';
 import Home from './jsx/Home.jsx';
 import AboutCompany from './jsx/AboutCompany.jsx';
 import Market from './jsx/Market.jsx';
 import Login from './jsx/Login.jsx';
-import Register from './jsx/Register.jsx'; // Ensure the correct import
-import Calculator from './jsx/Calculator.jsx';
+import Calculator from "./jsx/Calculator.jsx";
+import Register from "./jsx/Register.jsx";
+import Contact from "./jsx/Contact.jsx";
 
 function App() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-
   return (
       <Router>
         <div className="App">
           <header className="App-header">
-            <Link to={"/"}>
+            <Link to="/" className="logo-link">
               <section className="logo-name">
-                <img src="/src/slike ep/logo.jpg" className="App-logo" alt="logo" />
+                <img src="/src/slike ep/logo.jpg" className="App-logo" alt="logo"/>
                 <p>ELEKTROPRIVREDA BiH</p>
               </section>
             </Link>
             <nav className="App-nav">
-              <Link to={"/"}>Početna</Link>
+              <Link to="/">Početna</Link>
               <Link to="/about-company">O kompaniji</Link>
               <Link to="/market">O tržištu</Link>
-              {!isAuthenticated && <Link to="/login" className="App-login">Prijavite se</Link>}
-              {!isAuthenticated && <Link to="/registration" className="App-register">Registracija</Link>}
+              <Link to="/kontakt">Kontakt</Link>
+              <Link to="/login" className="App-login">Prijavite se</Link>
             </nav>
           </header>
           <main>
@@ -34,9 +33,10 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about-company" element={<AboutCompany />} />
               <Route path="/market" element={<Market />} />
-              <Route path="/login" element={<Login setIsAuthenticated={setIsAuthenticated} />} />
-              <Route path="/registration" element={<Register />} />
+              <Route path="/login" element={<Login />} />
               <Route path="/calculator" element={<Calculator />} />
+              <Route path="/register" element={<Register />} />
+              <Route path="/kontakt" element={<Contact />} />
             </Routes>
           </main>
           <footer>

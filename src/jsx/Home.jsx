@@ -10,7 +10,7 @@ function Home() {
             </section>
             <section className="features">
                 <Link to="/login" className="no-text-decoration"><div className="feature-item">E-račun</div></Link>
-                <div className="feature-item">Plaćanje računa</div>
+                <Link to="/register" className="no-text-decoration"><div className="feature-item">Registracija</div></Link>
                 <div className="feature-item">Status zahtjeva</div>
                 <Link to="/calculator" className="no-text-decoration">
                     <div className="feature-item">Online kalkulator</div>

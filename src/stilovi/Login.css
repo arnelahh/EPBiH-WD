@@ -88,12 +88,23 @@
 
 }
 
-.register-button, .login-button {
+.login-button, .register-button {
+    display: inline-block;
     padding: 10px 20px;
+    margin: 10px;
     border: none;
-    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
     cursor: pointer;
 }
+
+.login-button:hover, .register-button:hover {
+    background-color: #0056b3;
+}
+
 
 .register-button {
     background-color: #fff;
@@ -101,16 +112,9 @@
     border: 1px solid #007bff;
 }
 
-.register-button:hover {
-    background-color: #007bff;
-    color: #fff;
-}
 
 .login-button {
     background-color: #007bff;
     color: #fff;
 }
 
-.login-button:hover {
-    background-color: #0056b3;
-}
