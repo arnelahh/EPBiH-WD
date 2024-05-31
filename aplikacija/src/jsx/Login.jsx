@@ -8,9 +8,11 @@ function Login() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
+
     useEffect(() => {
         loadJsonData();
     });
+
     const handleSubmit = async (event) => {
         event.preventDefault(); // Prevents the default form submit behavior
 
@@ -24,6 +26,7 @@ function Login() {
             console.log('User authenticated');
             // Redirect to the home page or user profile
             navigate('/');
+            window.location.reload();
         } else {
             console.log('User does not exist');
             setError('Profile does not exist. Please check your credentials or register.');

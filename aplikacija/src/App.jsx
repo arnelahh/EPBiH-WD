@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import './stilovi/App.css';
 import Home from './jsx/Home.jsx';
 import AboutCompany from './jsx/AboutCompany.jsx';
@@ -10,8 +10,14 @@ import Register from "./jsx/Register.jsx";
 import Contact from "./jsx/Contact.jsx";
 import MyProfile from "./jsx/MyProfile.jsx";
 
+
 function App() {
   const user = localStorage.getItem('userData');
+
+  const handleLogout = () => {
+    localStorage.removeItem('userData');
+    window.location.reload();
+  }
   return (
       <Router>
         <div className="App">
@@ -28,6 +34,7 @@ function App() {
               <Link to="/market">O tržištu</Link>
               <Link to="/kontakt">Kontakt</Link>
               {!user && <Link to="/login" className="App-login">Prijavite se</Link>}
+              {user && <Link to="/" className="App-logout" onClick={handleLogout}>Odjavite se</Link>}
             </nav>
           </header>
           <main>
