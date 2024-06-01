@@ -33,5 +33,12 @@
     "number": "0644040678",
     "password": "sigra",
     "confirmPassword": "sifra"
+  },
+  {
+    "username": "Aldina Ismic",
+    "email": "aldina.ismic.22@size.ba",
+    "number": "100200300",
+    "password": "kicopapagaj",
+    "confirmPassword": "kicopapagaj"
   }
 ]
