@@ -22,10 +22,6 @@
   margin: 0 15px;
   text-decoration: none;
   color: #333;
-  border-radius: 5px;
-}
-.App-nav a:hover{
-  background-color: #dddddd;
 }
 .App-nav a:active{
   border-bottom: 2px solid #437EF7 ;
@@ -141,13 +137,6 @@ footer {
   border-radius: 5px;
   margin-left: 10px;
   color: white;
-
   border: none;
 
-}
-.App-logout:hover {
-  background-color: #bbbbbb;
-  color: red;
-  scale: 1.1;
-  animation-duration: 1s;
 }
