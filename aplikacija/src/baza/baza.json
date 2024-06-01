@@ -47,5 +47,12 @@
     "number": "06060606",
     "password": "necedada",
     "confirmPassword": "necedada"
+  },
+  {
+    "username": "murky",
+    "email": "muris@ba.com",
+    "number": "23663424623463",
+    "password": "123456",
+    "confirmPassword": "123456"
   }
 ]
