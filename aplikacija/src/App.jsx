@@ -25,7 +25,7 @@ function AppContent() {
           <Link to="/" className="logo-link">
             <section className="logo-name">
               <img src="/src/slike ep/logo.jpg" className="App-logo" alt="logo"/>
-              <p>ELEKTROPRIVREDA BiH</p>
+              <p>ELEKTROPRIVREDA BIH</p>
             </section>
           </Link>
           <nav className="App-nav">
