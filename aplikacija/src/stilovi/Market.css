@@ -1,4 +1,6 @@
 /* Stilovi za .jsx */
+/* src/stilovi/Market.css */
+
 .market {
     padding: 20px;
     text-align: center;
@@ -6,128 +8,101 @@
 
 .market-header {
     margin-bottom: 20px;
+    color: #333;
 }
 
 .market-header h1 {
-    font-size: 2.2em; /* Promijenjena veličina naslova */
-    margin-bottom: 15px; /* Smanjen razmak ispod naslova */
-    color: #1935ed;
-    font-family: Arial, sans-serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
 }
 
 .market-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
 .info-section {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .info-card {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
-    border-radius: 12px;
+    border-radius: 8px;
     width: 300px;
     text-align: left;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .info-card img {
     width: 100%;
     height: auto;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.info-card:hover img {
-    transform: scale(1.1);
 }
 
 .info-content {
-    padding: 20px;
+    padding: 15px;
 }
 
 .info-content h2 {
-    font-size: 1.6em; /* Promijenjena veličina naslova */
-    margin-bottom: 10px; /* Smanjen razmak ispod naslova */
-    color: #1935ed;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #6d6d6d;
 }
 
 .info-content p {
-    font-size: 0.9em; /* Promijenjena veličina paragrafa */
+    font-size: 1em;
     color: #555;
-    margin-bottom: 15px; /* Smanjen razmak ispod paragrafa */
-    line-height: 1.5;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
 }
 
 .grid-content {
-    margin-top: 60px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 5%;
     justify-content: center;
-    margin-bottom: 60px;
-    width: 100%;
+    margin-bottom: 40px;
 }
 
 .grid-item {
-    border-radius: 12px;
+    border-radius: 8px;
     width: 45%;
     text-align: left;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
 }
 
 .grid-item img {
     width: 100%;
     height: auto;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-}
-
-.grid-item:hover {
-    transform: translateY(-5px);
 }
 
 .grid-content h1 {
-    font-size: 2em; /* Promijenjena veličina naslova */
-    margin-bottom: 15px; /* Smanjen razmak ispod naslova */
-    color: #1935ed;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+    margin-top: 20%;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #555;
 }
 
 .grid-content p {
-    font-size: 0.5em; /* Promijenjena veličina paragrafa */
-    color: #555;
-    margin-bottom: 15px; /* Smanjen razmak ispod paragrafa */
-    line-height: 1.5;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
 }
 
 .link {
     text-decoration: none;
     font-weight: bold;
-    color: #2196F3;
-    transition: color 0.3s;
 }
 
 .link:hover {
     text-decoration: underline;
-    color: #0d47a1;
     cursor: pointer;
 }
 
@@ -137,32 +112,25 @@
 }
 
 .customer-info h2 {
-    font-size: 2.2em; /* Promijenjena veličina naslova */
+    font-size: 1.8em;
     margin-bottom: 20px;
-    color: #1935ed;
-    font-family: Arial, sans-serif;
+
 }
 
 .customer-info p {
-    font-size: 1em; /* Promijenjena veličina paragrafa */
-    color: #555;
-    margin-bottom: 20px;
-    line-height: 1.5;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 .customer-info ul {
     margin-left: 20px;
     list-style-type: disc;
 }
-
-.obrasci {
+.obrasci{
     color: red;
     cursor: pointer;
 }
-
-.customer-info h3 {
-    font-size: 2em;
-    color: #1935ed;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.customer-info h3{
+    color: #6d6d6d;
 }

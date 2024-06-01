@@ -10,7 +10,7 @@ function Market() {
         </header>
         <main className="market-content">
           <section className="customer-info">
-            <p>U ovom dijelu možete naći osnovne informacije o tržištu električne energije u Bosni i Hercegovini, kategorijama kupaca koji mogu slobodno da biraju snabdjevača električne energije, kao i koje korake je potrebno poduzeti da bi postali naš kupac električne energije, bilo da ste kupac priključen na distributivnu mrežu JP EPBiH ili na distributivnu mrežu drugih elektroprivrednih kompanija koje djeluju na području Bosne i Hercegovine. Za sve dodatne informacije, kupcima je na raspolaganju tim Snabdijevanje EPBiH putem adrese snabdijevanje@epbih.ba</p>
+            <p>U ovom dijelu možete naći osnovne informacije o tržištu električne energije u Bosni i Hercegovini, kategorijama kupaca koji mogu slobodno da biraju snabdjevača električne energije, kao i koje korake je potrebno poduzeti da bi postali naš kupac električne energije, bilo da ste kupac priključen na distributivnu mrežu JP EPBiH ili na distributivnu mrežu drugih elektroprivrednih kompanija koje djeluju na području Bosne i Hercegovine. Za sve dodatne informacije, kupcima je na raspolaganju tim Snabdijevanje EPBiH putem adrese snabdijevanje@epbih.ba</p><br>
             <hr/>
             <h2>Tržište električne energije</h2>
             <p>Od 01.01.2015. godine svi krajnji kupci električne energije su kvalifikovani kupci čime ostvaruju pravo na slobodan izbor svog snabdjevača.</p>
