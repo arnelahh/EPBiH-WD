@@ -12,5 +12,19 @@
     "number": "063564823",
     "password": "12345",
     "confirmPassword": "12345"
+  },
+  {
+    "username": "Dzan",
+    "email": "dzan.babahmetovic@size.ba",
+    "number": "18283924",
+    "password": "1234dzan.",
+    "confirmPassword": "1234dzan."
+  },
+  {
+    "username": "Nedzma",
+    "email": "nedzma@gmail.com",
+    "number": "12345678",
+    "password": "nedzmaihamza",
+    "confirmPassword": "nedzmaihamza"
   }
 ]
