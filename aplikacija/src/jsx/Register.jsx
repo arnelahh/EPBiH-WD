@@ -48,10 +48,13 @@ function Register() {
     return (
         <div className="register-container">
             <header className="register-header">
-                <img src="src/slike%20ep/kalkulator.jpg" alt="Kalkulator" className="register-image"/>
-                <h1>Registracija</h1>
+                <h1>ELEKTROPRIVREDA <br/>
+                    BOSNE I HERCEGOVINE </h1>
             </header>
             <main className="register-main">
+                <h2>Registruj se</h2>
+                <p>Postanite i Vi dio nas!</p>
+                <hr/>
                 <section className="register-section">
                     <div className="register-form">
                         <div className="register-icon">
@@ -59,24 +62,31 @@ function Register() {
                         </div>
                         <form onSubmit={handleSubmit} autoComplete="off">
                             <div className="register-input">
-                                <label htmlFor="username">Korisničko ime</label>
-                                <input type="text" id="username" name="username" required autoComplete="new-username" value={formData.username} onChange={handleChange} />
+
+                                <input type="text" id="username" name="username" required autoComplete="new-username"
+                                       value={formData.username} onChange={handleChange} placeholder="Korisničko ime"/>
                             </div>
                             <div className="register-input">
-                                <label htmlFor="email">E-mail</label>
-                                <input type="email" id="email" name="email" required autoComplete="new-email" value={formData.email} onChange={handleChange} />
+                                <input type="email" id="email" name="email" required autoComplete="new-email"
+                                       value={formData.email} onChange={handleChange}
+                                       placeholder="E-mail"/>
                             </div>
                             <div className="register-input">
-                                <label htmlFor="number">Broj telefona</label>
-                                <input type="tel" id="number" name="number" required autoComplete="new-number" value={formData.number} onChange={handleChange} />
+                                <input type="tel" id="number" name="number" required autoComplete="new-number"
+                                       value={formData.number} onChange={handleChange}
+                                       placeholder="Broj telefona"/>
                             </div>
                             <div className="register-input">
-                                <label htmlFor="password">Šifra</label>
-                                <input type="password" id="password" name="password" required autoComplete="new-password" value={formData.password} onChange={handleChange} />
+                                <input type="password" id="password" name="password" required
+                                       autoComplete="new-password" value={formData.password} onChange={handleChange}
+                                       placeholder="Šifra"/>
                             </div>
                             <div className="register-input">
-                                <label htmlFor="confirm-password">Potvrdite šifru</label>
-                                <input type="password" id="confirm-password" name="confirmPassword" required autoComplete="new-password" value={formData.confirmPassword} onChange={handleChange} />
+                                <input type="password" id="confirm-password" name="confirmPassword" required
+                                       autoComplete="new-password" value={formData.confirmPassword}
+                                       onChange={handleChange}
+                                       placeholder="Potvrdite šifru"/>
+                                <p className="useragr">Klikom na Registrujte se slažete se s našim Uvjetima, Politikom privatnosti i Politikom kolačića. Možete primati SMS obavještenja od nas i možete odustati u bilo kojem trenutku.</p>
                             </div>
                             <div className="register-buttons">
                                 <button type="submit" className="register-button">Registrujte se</button>
