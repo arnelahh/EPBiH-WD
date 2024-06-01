@@ -12,5 +12,40 @@
     "number": "063564823",
     "password": "12345",
     "confirmPassword": "12345"
+  },
+  {
+    "username": "Dzan",
+    "email": "dzan.babahmetovic@size.ba",
+    "number": "18283924",
+    "password": "1234dzan.",
+    "confirmPassword": "1234dzan."
+  },
+  {
+    "username": "Nedzma",
+    "email": "nedzma@gmail.com",
+    "number": "12345678",
+    "password": "nedzmaihamza",
+    "confirmPassword": "nedzmaihamza"
+  },
+  {
+    "username": "hamza",
+    "email": "hamza@mail.com",
+    "number": "0644040678",
+    "password": "sigra",
+    "confirmPassword": "sifra"
+  },
+  {
+    "username": "Aldina Ismic",
+    "email": "aldina.ismic.22@size.ba",
+    "number": "100200300",
+    "password": "kicopapagaj",
+    "confirmPassword": "kicopapagaj"
+  },
+  {
+    "username": "danis",
+    "email": "dadadada@lll.com",
+    "number": "06060606",
+    "password": "necedada",
+    "confirmPassword": "necedada"
   }
 ]
