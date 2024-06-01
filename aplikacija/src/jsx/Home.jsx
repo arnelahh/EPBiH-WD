@@ -1,15 +1,26 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import '../stilovi/Home.css';
 
 function Home() {
+    const navigate = useNavigate();
+    const user = localStorage.getItem('userData');
+
+    const handleEracunClick = () => {
+        if (user) {
+            navigate('/my-profile');
+        } else {
+            navigate('/login');
+        }
+    };
+
     return (
         <>
             <section className="hero-section">
                 <img src="https://img.freepik.com/free-photo/aerial-view-business-data-analysis-graph_53876-146152.jpg" alt="Hero" className="hero-image" />
             </section>
             <section className="features">
-                <Link to="/my-profile" className="no-text-decoration"><div className="feature-item">E-račun</div></Link>
+                <div className="feature-item" onClick={handleEracunClick}>E-račun</div>
                 <Link to="/register" className="no-text-decoration"><div className="feature-item">Registracija</div></Link>
                 <div className="feature-item">Status zahtjeva</div>
                 <Link to="/calculator" className="no-text-decoration">
