@@ -9,29 +9,31 @@ function MyProfile() {
     });
 
     useEffect(() => {
-        const user = localStorage.getItem('userData');
-        if (user) {
-            const userData = JSON.parse(user);
-            fetch('/src/baza/baza.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    console.log('Fetched data from JSON:', data);
-                    const userProfile = data.find(u => u.username === userData.username);
-                    if (userProfile) {
-                        setProfileData({
-                            username: userProfile.username || '',
-                            email: userProfile.email || '',
-                            number: userProfile.number || ''
-                        });
-                    }
-                })
-                .catch(error => console.error('Error fetching user data:', error));
-        }
+        const user = JSON.parse(localStorage.getItem('activeUser'));
+        console.log(user);
+        setProfileData(user);
+        // if (user) {
+        //     const userData = JSON.parse(user);
+        //     fetch('/src/baza/baza.json')
+        //         .then(response => {
+        //             if (!response.ok) {
+        //                 throw new Error('Network response was not ok');
+        //             }
+        //             return response.json();
+        //         })
+        //         .then(data => {
+        //             console.log('Fetched data from JSON:', data);
+        //             const userProfile = data.find(u => u.username === userData.username);
+        //             if (userProfile) {
+        //                 setProfileData({
+        //                     username: userProfile.username || '',
+        //                     email: userProfile.email || '',
+        //                     number: userProfile.number || ''
+        //                 });
+        //             }
+        //         })
+        //         .catch(error => console.error('Error fetching user data:', error));
+        // }
     }, []);
 
     const handleInputChange = (e) => {

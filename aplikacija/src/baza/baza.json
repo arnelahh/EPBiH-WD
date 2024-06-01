@@ -26,5 +26,12 @@
     "number": "12345678",
     "password": "nedzmaihamza",
     "confirmPassword": "nedzmaihamza"
+  },
+  {
+    "username": "hamza",
+    "email": "hamza@mail.com",
+    "number": "0644040678",
+    "password": "sigra",
+    "confirmPassword": "sifra"
   }
 ]

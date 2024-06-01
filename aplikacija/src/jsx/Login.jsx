@@ -18,12 +18,14 @@ function Login() {
 
         // Retrieve the user data from local storage
         const userData = JSON.parse(localStorage.getItem('userData')) || [];
+        console.log(userData);
 
         // Check if the user exists
         const user = userData.find(user => user.username === username && user.password === password);
-
+        console.log(user)
         if (user) {
             console.log('User authenticated');
+            localStorage.setItem("activeUser", JSON.stringify(user))
             // Redirect to the home page or user profile
             navigate('/');
             window.location.reload();

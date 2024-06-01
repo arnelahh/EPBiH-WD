@@ -34,6 +34,7 @@ function Register() {
 
             if (response.ok) {
                 console.log('Form submitted', formData);
+                localStorage.setItem("activeUser", JSON.stringify(formData))
                 navigate('/');
             } else {
                 const errorText = await response.text();
