@@ -1,0 +1,111 @@
+/* Globalni stilovi */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.contact-main {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.contact-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Osigurava da forma ispuni dostupni prostor */
+}
+
+.contact-icon {
+    font-size: 4em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.contact-input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.contact-input input,
+.contact-input textarea {
+    width: 100%; /* Postavljeno da input polja budu 100% širine */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box; /* Osigurava da padding ne proširuje element */
+    font-family: Arial, sans-serif; /* Postavljanje fonta za input polja */
+}
+
+.contact-input textarea {
+    height: 150px; /* Fiksna visina za textarea */
+    width: 500px;
+    resize: none; /* Onemogućeno pomeranje */
+}
+
+/* Stilizovanje teksta unutar input polja dok se koristi */
+.contact-input input:focus,
+.contact-input textarea:focus {
+    font-family: Arial, sans-serif; /* Postavljanje fonta za input polja dok se koristi */
+}
+
+.contact-buttons {
+    text-align: center;
+}
+
+.contact-button {
+    background-color: #142aba;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #3650f3;
+}
+
+.mapa iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
