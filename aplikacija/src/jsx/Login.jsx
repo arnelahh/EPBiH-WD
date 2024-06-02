@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import '../stilovi/Login.css';
 import { Link, useNavigate } from "react-router-dom";
 import {loadJsonData} from "../utils/loadJsonData.js";
-
+import '/src/stilovi/Login.css'
 function Login() {
     const navigate = useNavigate();
     const [username, setUsername] = useState('');
@@ -19,19 +18,16 @@ function Login() {
         // Retrieve the user data from local storage
         const userData = JSON.parse(localStorage.getItem('userData')) || [];
         console.log(userData);
-
-        // Check if the user exists
         const user = userData.find(user => user.username === username && user.password === password);
         console.log(user)
         if (user) {
             console.log('User authenticated');
             localStorage.setItem("activeUser", JSON.stringify(user))
-            // Redirect to the home page or user profile
             navigate('/');
             window.location.reload();
         } else {
-            console.log('User does not exist');
-            setError('Profile does not exist. Please check your credentials or register.');
+            console.log('Korisnik ne postoji');
+            setError('Profil ne postoji. Molimo provjerite unesene podatke ili se registrujte.');
         }
     };
 
@@ -78,7 +74,7 @@ function Login() {
                             </div>
                             <div className="login-buttons">
                                 <Link to="/register">
-                                    <button type="button" className="login-button">Registrujte se</button>
+                                    <button type="button" className="register-button">Registrujte se</button>
                                 </Link>
                                 <button type="submit" className="login-button">Prijavite se</button>
                             </div>
