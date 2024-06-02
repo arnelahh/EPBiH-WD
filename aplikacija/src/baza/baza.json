@@ -56,11 +56,17 @@
     "confirmPassword": "teretan"
   },
   {
-  
     "username": "murky",
     "email": "muris@ba.com",
     "number": "23663424623463",
     "password": "123456",
     "confirmPassword": "123456"
+  },
+  {
+    "username": "Hanan Horozovic",
+    "email": "hanan.horozovic@gmail.com",
+    "number": "500600700",
+    "password": "izdici123",
+    "confirmPassword": "zdici123"
   }
 ]

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../stilovi/MyProfile.css';
+import {Link} from "react-router-dom";
 
 function MyProfile() {
     const [profileData, setProfileData] = useState({
@@ -90,7 +91,9 @@ function MyProfile() {
                         </div>
                     </div>
                 </section>
-                <button type="button" className="report-issue-button">Prijavite kvar</button>
+                <Link to={'/kontakt'}>
+                    <button type="button" className="report-issue-button">Prijavite kvar</button>
+                </Link>
             </main>
         </div>
     );
