@@ -21,7 +21,7 @@ function Home() {
             </section>
             <section className="features">
                 <div className="feature-item" onClick={handleEracunClick}>E-račun</div>
-                <Link to="/register" className="no-text-decoration"><div className="feature-item">Registracija</div></Link>
+                <div className="feature-item">Plaćanje računa</div>
                 <div className="feature-item">Status zahtjeva</div>
                 <Link to="/calculator" className="no-text-decoration">
                     <div className="feature-item">Online kalkulator</div>

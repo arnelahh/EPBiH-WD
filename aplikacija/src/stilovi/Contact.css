@@ -37,21 +37,21 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .contact-text {
-    width: 40%;
+    width: 35%;
     margin-right: 20px;
     text-align: left;
     font-size: 1.1em;
     color: #333;
     line-height: 1.6;
-    padding: 0 20px;
+    padding-left: 16px;
 }
 
 .contact-form {
-    width: 45%;
+    width:45%;
     display: flex;
     flex-direction: column;
 }
@@ -108,13 +108,41 @@ body {
     background-color: #0056b3;
 }
 
-.mapa {
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info table {
     width: 100%;
+    border-collapse: collapse;
     margin-top: 20px;
 }
 
-.mapa iframe {
-    width: 100%;
-    border: none;
-    border-radius: 8px;
+.contact-info th, .contact-info td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.contact-info th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.contact-info tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.contact-info .link {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.contact-info .link:hover {
+    text-decoration: underline;
+}
+
+.mapa {
+    margin-top: 20px;
+    text-align: center;
 }
