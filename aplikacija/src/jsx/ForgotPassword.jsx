@@ -25,10 +25,11 @@ function ForgotPassword() {
     return (
         <>
             <div className="container">
-                <h2 className="register-header">Ponovo postavi šifru</h2>
+
                 <form id="resetForm" onSubmit={handleSubmit} className="forget-form">
-                    <label htmlFor="email">Email:</label>
-                    <input
+                    <h2 className="register-header">Ponovo postavi šifru</h2>
+                    <label className="labelforgot" htmlFor="email">Email:</label>
+                    <input className="forgetpass"
                         type="email"
                         id="email"
                         name="email"
@@ -37,8 +38,8 @@ function ForgotPassword() {
                         required
                     />
 
-                    <label htmlFor="newPassword">Nova šifra:</label>
-                    <input
+                    <label className="labelforgot" htmlFor="newPassword">Nova šifra:</label>
+                    <input className="forgetpass"
                         type="password"
                         id="newPassword"
                         name="newPassword"
@@ -47,8 +48,8 @@ function ForgotPassword() {
                         required
                     />
 
-                    <label htmlFor="confirmPassword">Potvrdi novu šifru:</label>
-                    <input
+                    <label className="labelforgot" htmlFor="confirmPassword">Potvrdi novu šifru:</label>
+                    <input className="forgetpass"
                         type="password"
                         id="confirmPassword"
                         name="confirmPassword"
@@ -57,7 +58,7 @@ function ForgotPassword() {
                         required
                     />
 
-                    <button type="submit">Ponovo postavi šifru</button>
+                    <button className="forget-button" type="submit">Ponovo postavi šifru</button>
                     <p id="message"
                        style={{color: message === 'Šifra je promijenjena uspješno!' ? 'green' : 'red'}}>{message}</p>
                 </form>
