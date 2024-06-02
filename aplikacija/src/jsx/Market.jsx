@@ -21,7 +21,7 @@ function Market() {
             </ul>
             <div className="grid-content">
               <div className="grid-item">
-                <img src="https://www.epbih.ba/img/s/700x700/upload/images/v2/pages/ilustracije/Depositphotos_151249562_original.jpg" alt="Ilustracija" />
+                <img className="market-info-img" src="https://www.epbih.ba/img/s/700x700/upload/images/v2/pages/ilustracije/Depositphotos_151249562_original.jpg" alt="Ilustracija" />
               </div>
               <div className="grid-item">
                 <h1>Javni snabdjevač</h1>
@@ -34,7 +34,7 @@ function Market() {
                 <p className="link">+Detaljnije</p>
               </div>
               <div className="grid-item">
-                <img src="https://www.epbih.ba/img/s/700x700/upload/images/v2/pages/ilustracije/Depositphotos_182636538_original.jpg" alt="Ilustracija" />
+                <img className="market-info-img" src="https://www.epbih.ba/img/s/700x700/upload/images/v2/pages/ilustracije/Depositphotos_182636538_original.jpg" alt="Ilustracija" />
               </div>
             </div>
             <h2>Kako postati kupac?</h2>
@@ -56,7 +56,7 @@ function Market() {
               <li>Obrasci ugovora koje potpisuje snabdjevač sa krajnjim kupcem/proizvođačem</li>
             </ul>
             <h3>Kupac koji ima priključak na distributivnu mrežu drugih elektroprivreda u BiH, a želi da mu snabdjevač električne energije bude JP EPBiH</h3>
-            <p>Ukoliko ste priključeni na distributivnu mrežu drugih elektroprivreda u BiH, odnosno drugih elektrodistributivnih preduzeća, a želite postati kupac električne energije JP EPBiH, dovoljno je da se obratite sa zahtjevom JP EPBiH kao vašem budućem novom snabdjevaču električne energije. Postupak promjene snabdjevača trajat će maksimalno 21 dan od trenutka podnošenja zahtjeva za promjenom snabdjevača. Za sve informacije u vezi s promjenom snabdjevača možete se obratiti nadležnim podružnicama.</p>
+            <p className="specificnip">Ukoliko ste priključeni na distributivnu mrežu drugih elektroprivreda u BiH, odnosno drugih elektrodistributivnih preduzeća, a želite postati kupac električne energije JP EPBiH, dovoljno je da se obratite sa zahtjevom JP EPBiH kao vašem budućem novom snabdjevaču električne energije. Postupak promjene snabdjevača trajat će maksimalno 21 dan od trenutka podnošenja zahtjeva za promjenom snabdjevača. Za sve informacije u vezi s promjenom snabdjevača možete se obratiti nadležnim podružnicama.</p>
           </section>
         </main>
       </div>
