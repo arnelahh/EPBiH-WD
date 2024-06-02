@@ -70,7 +70,7 @@ function Login() {
                                 />
                             </div>
                             <div className="login-links">
-                                <a href="/forgot-password">Zaboravili ste šifru?</a>
+                                <Link to="/forgot-password">Zaboravili ste šifru?</Link>
                             </div>
                             <div className="login-buttons">
                                 <Link to="/register">

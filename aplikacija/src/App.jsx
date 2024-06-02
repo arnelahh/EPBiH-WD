@@ -9,6 +9,7 @@ import Calculator from "./jsx/Calculator.jsx";
 import Register from "./jsx/Register.jsx";
 import Contact from "./jsx/Contact.jsx";
 import MyProfile from "./jsx/MyProfile.jsx";
+import ForgotPassword from "./jsx/ForgotPassword.jsx";
 
 function AppContent() {
   const user = localStorage.getItem('userData');
@@ -47,6 +48,7 @@ function AppContent() {
             <Route path="/register" element={<Register />} />
             <Route path="/kontakt" element={<Contact />} />
             <Route path="/my-profile" element={<MyProfile />} />
+            <Route path="/forgot-password" element={<ForgotPassword />} />
           </Routes>
         </main>
         <footer>
