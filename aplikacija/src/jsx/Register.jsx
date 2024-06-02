@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import '../stilovi/Register.css';
 
 function Register() {
@@ -89,7 +89,10 @@ function Register() {
                                 <p className="useragr">Klikom na Registrujte se slažete se s našim Uvjetima, Politikom privatnosti i Politikom kolačića. Možete primati SMS obavještenja od nas i možete odustati u bilo kojem trenutku.</p>
                             </div>
                             <div className="register-buttons">
-                                <button type="submit" className="register-buttonl">Registrujte se</button>
+                                <Link to="/login">
+                                    <button type="submit" className="register-button">Prijavite se</button>
+                                </Link>
+                                <button type="submit" className="login-button">Registrujte se</button>
                             </div>
                         </form>
                     </div>
