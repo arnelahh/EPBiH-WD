@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../stilovi/Home.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css';
 
 function Home() {
     const navigate = useNavigate();
@@ -15,20 +15,6 @@ function Home() {
             navigate('/login');
         }
     };
-
-    const customRenderArrowPrev = (onClickHandler, hasPrev, label) =>
-        hasPrev && (
-            <button type="button" onClick={onClickHandler} title={label} className="custom-prev-arrow">
-                &#10094;
-            </button>
-        );
-
-    const customRenderArrowNext = (onClickHandler, hasNext, label) =>
-        hasNext && (
-            <button type="button" onClick={onClickHandler} title={label} className="custom-next-arrow">
-                &#10095;
-            </button>
-        );
 
     return (
         <>
@@ -60,48 +46,42 @@ function Home() {
                 </div>
             </section>
             <section className="video-slider">
-                <Carousel
-                    showThumbs={false}
-                    showStatus={false}
-                    infiniteLoop={true}
-                    useKeyboardArrows={true}
-                    autoPlay={true}
-                    stopOnHover={true}
-                    swipeable={true}
-                    emulateTouch={true}
-                    dynamicHeight={true}
-                    renderArrowPrev={customRenderArrowPrev}
-                    renderArrowNext={customRenderArrowNext}
+                <Swiper
+                    spaceBetween={30}
+                    navigation={{ clickable: true }}  // Ensure navigation is clickable
+                    pagination={{ clickable: true }}
+                    autoplay={{ delay: 1000 }}
+                    loop={true}
                 >
-                    <div className="video">
+                    <SwiperSlide>
                         <iframe width="560" height="315"
                                 src="https://www.youtube.com/embed/arXq6iJNTKc?si=Wl-WhfKiArGVQ4sa"
                                 title="YouTube video player" frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                    </div>
-                    <div className="video">
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <iframe width="560" height="315"
                                 src="https://www.youtube.com/embed/7HhaZ4JL6GE?si=B6EVaU_G-mTJ2uP5"
                                 title="YouTube video player" frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                    </div>
-                    <div className="video">
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <iframe width="560" height="315"
                                 src="https://www.youtube.com/embed/Rv0RbaLC4Jk?si=elXCGmGHYUX-tyh8"
                                 title="YouTube video player" frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                    </div>
-                    <div className="video">
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <iframe width="560" height="315"
                                 src="https://www.youtube.com/embed/RVU9k8GUPtc?si=DjrUDzIRkBKPLUWO"
                                 title="YouTube video player" frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                    </div>
-                </Carousel>
+                    </SwiperSlide>
+                </Swiper>
             </section>
         </>
     );
