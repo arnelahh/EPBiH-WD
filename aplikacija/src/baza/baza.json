@@ -75,5 +75,19 @@
     "number": "22",
     "password": "da",
     "confirmPassword": "da"
+  },
+  {
+    "username": "Kova",
+    "email": "kova@gmail.com",
+    "number": "65656565",
+    "password": "123123123",
+    "confirmPassword": "123123123"
+  },
+  {
+    "username": "Emina",
+    "email": "emina@gmai.com",
+    "number": "600700800",
+    "password": "123123123",
+    "confirmPassword": "123123123"
   }
 ]
