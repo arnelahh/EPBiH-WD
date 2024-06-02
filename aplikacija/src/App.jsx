@@ -59,8 +59,10 @@ function AppContent() {
                 alt="Instagram"/></a>
             <a href="https://www.linkedin.com/company/jp-elektroprivreda-bih-d-d-sarajevo/"><img
                 src="/src/slike ep/ln.webp" alt="LinkedIn"/></a>
-            <a href="https://x.com/elektroprivreda"><img className="twittercic" src="/src/slike ep/xic.png" alt="Twitter"/></a>
-            <a href="https://x.com/elektroprivreda"><img className="youtube-logo" src="/src/slike ep/xic.png" alt="Twitter"/></a>
+            <a href="https://www.youtube.com/@epbih"><img className="youtube-logo" src="/src/slike ep/youtube_logo.jpg" alt="Youtube"/></a>
+            <a href="https://x.com/elektroprivreda"><img className="twittercic" src="/src/slike ep/xic.png"
+                                                         alt="Twitter"/></a>
+
           </div>
         </footer>
       </div>
