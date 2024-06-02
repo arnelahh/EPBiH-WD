@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 400px; /* Maksimalna širina za bolji izgled na većim ekranima */
+    max-width: 400px;
     transition: all 0.3s ease;
 }
 
@@ -115,11 +115,13 @@
 
 .login-buttons {
     display: flex;
-    flex-direction: column; /* Promijenjeno */
     width: 100%;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
 }
 
-.login-button, .register-button {
+.login-button{
     padding: 10px 20px;
     margin: 10px 0;
     border: none;
@@ -131,25 +133,28 @@
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
-
-.login-button:hover, .register-button:hover {
+.login-button:hover{
     background-color: #0056b3;
     transform: scale(1.05);
 }
-
-.register-button {
+.register-button{
+    padding: 10px 20px;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
     background-color: white;
     color: #007bff;
     border: 1px solid #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
-
-.register-button:hover {
-    background-color: #007bff;
-    color: #fff;
+.register-button:hover{
+    background-color: #f4f4f4;
+    transform: scale(1.05);
 }
-
 .error-message {
     color: red;
     font-size: 0.9em;
     margin-top: 10px;
 }
+
