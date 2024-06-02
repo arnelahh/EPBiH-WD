@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import '../stilovi/Home.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css';
 
 function Home() {
     const navigate = useNavigate();
@@ -44,36 +46,42 @@ function Home() {
                 </div>
             </section>
             <section className="video-slider">
-                <div className="videos">
-                    <div className="video">
+                <Swiper
+                    spaceBetween={30}
+                    navigation={{ clickable: true }}  // Ensure navigation is clickable
+                    pagination={{ clickable: true }}
+                    autoplay={{ delay: 1000 }}
+
+                >
+                    <SwiperSlide>
                         <iframe width="560" height="315"
                                 src="https://www.youtube.com/embed/arXq6iJNTKc?si=Wl-WhfKiArGVQ4sa"
                                 title="YouTube video player" frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                    </div>
-                    <div className="video">
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <iframe width="560" height="315"
                                 src="https://www.youtube.com/embed/7HhaZ4JL6GE?si=B6EVaU_G-mTJ2uP5"
                                 title="YouTube video player" frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                    </div>
-                    <div className="video">
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <iframe width="560" height="315"
                                 src="https://www.youtube.com/embed/Rv0RbaLC4Jk?si=elXCGmGHYUX-tyh8"
                                 title="YouTube video player" frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                    </div>
-                    <div className="video">
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <iframe width="560" height="315"
                                 src="https://www.youtube.com/embed/RVU9k8GUPtc?si=DjrUDzIRkBKPLUWO"
                                 title="YouTube video player" frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                    </div>
-                </div>
+                    </SwiperSlide>
+                </Swiper>
             </section>
         </>
     );
