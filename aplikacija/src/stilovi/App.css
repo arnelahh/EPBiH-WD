@@ -25,10 +25,11 @@
   border-radius: 5px;
 }
 .App-nav a:hover{
-  background-color: #cccccc;
+  font-weight: bold;
+  scale: 1.0;
 }
 .App-nav a:active{
-  background-color: #eeeeee ;
+  background-color: #eeeeee;
 }
 .App-nav a:last-child:active{
   border-bottom: none;
@@ -36,7 +37,7 @@
 .App-nav a:last-child{
   background-color: #437EF7;
   color: white;
-  padding: 7px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
 }
 .App-nav a:enabled{
@@ -50,7 +51,7 @@
 .App-login:hover{
   background-color: midnightblue;
   color: white;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .hero-section {
@@ -140,19 +141,19 @@ footer {
     font-weight: bold;
 }
 .App-logout{
-  background-color: red;
+  background-color: white;
   padding: 5px 15px;
   border-radius: 5px;
   margin-left: 10px;
-  color: white;
-
+  color: red;
+  font-size: 16px;
   border: none;
 
 }
 .App-logout:hover {
-  background-color: #bbbbbb;
-  color: red;
-  scale: 1.1;
+  background-color: red;
+  color: white;
+  scale: 1.0;
   animation-duration: 1s;
 }
 .youtube-logo{

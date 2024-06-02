@@ -9,6 +9,7 @@ function AboutCompany() {
             <img src="src/slike ep/zice2.jpg"
                  alt="Hero" className="hero-image1"/>
           </section>
+          <h1 className="KompanijaNaslov">O kompaniji</h1>
           <section className="company-info">
             <div className="info-card">
               <img className="info-img" src="src/slike ep/info.jpeg" alt="Opće informacije"/>

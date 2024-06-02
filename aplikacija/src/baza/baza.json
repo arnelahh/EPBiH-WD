@@ -68,5 +68,12 @@
     "number": "500600700",
     "password": "izdici123",
     "confirmPassword": "zdici123"
+  },
+  {
+    "username": "da",
+    "email": "da@da.ada",
+    "number": "22",
+    "password": "da",
+    "confirmPassword": "da"
   }
 ]

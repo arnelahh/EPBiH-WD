@@ -2,13 +2,12 @@
 .hero-section1 {
     width: 100%;
     overflow: hidden;
-    height: 50vh;
-    margin: 30px 0;
+    height: 40%;
+    margin-bottom: 20px;
 }
 
-
 .hero-image1 {
-    width: 100vw;
+    width: 100%;
     display: block;
 }
 
@@ -68,6 +67,7 @@
 }
 
 .learn-more {
+    display: flex;
     background-color: #007bff;
     color: white;
     border: none;
@@ -76,6 +76,10 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    justify-content: right;
+    align-items: end;
+    align-content: end;
+    margin-right: -50px;
 }
 
 .learn-more:hover {
