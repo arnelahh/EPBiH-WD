@@ -52,10 +52,15 @@ function AppContent() {
         <footer>
           <p>71000 Sarajevo, Vilsonovo šetalište br.15, Bosna i Hercegovina</p>
           <div className="social-icons">
-            <a href="https://www.facebook.com/pages/Elektroprivreda/236354976492592?locale=hr_HR"><img src="/src/slike ep/fb.png" alt="Facebook" /></a>
-            <a href="https://www.instagram.com/elektroprivreda.rs/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png" alt="Instagram" /></a>
-            <a href="https://www.linkedin.com/company/jp-elektroprivreda-bih-d-d-sarajevo/"><img src="/src/slike ep/ln.webp" alt="LinkedIn" /></a>
-            <a href="https://x.com/elektroprivreda"><img className="twittercic" src="/src/slike ep/xic.png" alt="Twitter" /></a>
+            <a href="https://www.facebook.com/pages/Elektroprivreda/236354976492592?locale=hr_HR"><img
+                src="/src/slike ep/fb.png" alt="Facebook"/></a>
+            <a href="https://www.instagram.com/elektroprivreda.rs/"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png"
+                alt="Instagram"/></a>
+            <a href="https://www.linkedin.com/company/jp-elektroprivreda-bih-d-d-sarajevo/"><img
+                src="/src/slike ep/ln.webp" alt="LinkedIn"/></a>
+            <a href="https://x.com/elektroprivreda"><img className="twittercic" src="/src/slike ep/xic.png" alt="Twitter"/></a>
+            <a href="https://x.com/elektroprivreda"><img className="youtube-logo" src="/src/slike ep/xic.png" alt="Twitter"/></a>
           </div>
         </footer>
       </div>
@@ -65,7 +70,7 @@ function AppContent() {
 function App() {
   return (
       <Router>
-        <AppContent />
+        <AppContent/>
       </Router>
   );
 }
