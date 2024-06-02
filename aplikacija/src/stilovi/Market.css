@@ -23,43 +23,9 @@
     align-items: center;
 }
 
-.info-section {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-}
-
-.info-card {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    width: 300px;
-    text-align: left;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.info-card img {
+.market-info-img {
     width: 100%;
     height: auto;
-}
-
-.info-content {
-    padding: 15px;
-}
-
-.info-content h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: #6d6d6d;
-}
-
-.info-content p {
-    font-size: 1em;
-    color: #555;
-    margin-bottom: 20px;
 }
 
 .grid-content {
@@ -69,6 +35,7 @@
     gap: 5%;
     justify-content: center;
     margin-bottom: 40px;
+    align-items: start;
 }
 
 .grid-item {
@@ -76,6 +43,7 @@
     width: 45%;
     text-align: left;
     overflow: hidden;
+    align-items: start;
 }
 
 .grid-item img {
@@ -84,16 +52,25 @@
 }
 
 .grid-content h1 {
-    margin-top: 20%;
+    display: grid;
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     color: #555;
-}
+    align-items: start;
+    text-align: start;
 
+}
+.specificnip{
+    margin-bottom: 20px;
+}
 .grid-content p {
     font-size: 1em;
     color: #666;
+    margin-top: 20px;
     margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .link {

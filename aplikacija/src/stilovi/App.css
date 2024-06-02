@@ -25,10 +25,10 @@
   border-radius: 5px;
 }
 .App-nav a:hover{
-  background-color: #dddddd;
+  background-color: #cccccc;
 }
 .App-nav a:active{
-  border-bottom: 2px solid #437EF7 ;
+  background-color: #eeeeee ;
 }
 .App-nav a:last-child:active{
   border-bottom: none;
@@ -39,14 +39,18 @@
   padding: 7px 15px;
   border-radius: 5px;
 }
+.App-nav a:enabled{
+  background-color: #007bff;
+}
 .App-login {
   background-color: #f1f1f1;
   padding: 5px 10px;
   border-radius: 5px;
 }
 .App-login:hover{
-  background-color: #0056b3;
+  background-color: midnightblue;
   color: white;
+  transition: background-color 0.3s;
 }
 
 .hero-section {

@@ -132,6 +132,8 @@
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    border: 1px solid #007bff;
+    font-weight: bold;
 }
 .login-button:hover{
     background-color: #0056b3;
@@ -142,11 +144,13 @@
     margin: 10px 0;
     text-align: center;
     text-decoration: none;
-    background-color: white;
+    background-color: #eeeeee;
     color: #007bff;
     border: 1px solid #007bff;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 4px;
+    font-weight: bold;
 }
 .register-button:hover{
     background-color: #f4f4f4;

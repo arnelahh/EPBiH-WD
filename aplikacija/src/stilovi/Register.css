@@ -70,7 +70,7 @@ h2{
     justify-content: center;
 }
 
-.register-button {
+.register-buttonl {
     padding: 10px 20px;
     border: none;
     background-color: #007bff;
@@ -79,7 +79,7 @@ h2{
     cursor: pointer;
 }
 
-.register-button:hover {
+.register-buttonl:hover {
     background-color: #0056b3;
 }
 p{
