@@ -9,7 +9,7 @@ function Market() {
         </header>
         <main className="market-content">
           <section className="customer-info">
-            <p>U ovom dijelu možete naći osnovne informacije o tržištu električne energije u Bosni i Hercegovini, kategorijama kupaca koji mogu slobodno da biraju snabdjevača električne energije, kao i koje korake je potrebno poduzeti da bi postali naš kupac električne energije, bilo da ste kupac priključen na distributivnu mrežu JP EPBiH ili na distributivnu mrežu drugih elektroprivrednih kompanija koje djeluju na području Bosne i Hercegovine. Za sve dodatne informacije, kupcima je na raspolaganju tim Snabdijevanje EPBiH putem adrese snabdijevanje@epbih.ba</p>
+            <p>U ovom dijelu možete naći osnovne informacije o tržištu električne energije u Bosni i Hercegovini, kategorijama kupaca koji mogu slobodno da biraju snabdjevača električne energije, kao i koje korake je potrebno poduzeti da bi postali naš kupac električne energije, bilo da ste kupac priključen na distributivnu mrežu JP EPBiH ili na distributivnu mrežu drugih elektroprivrednih kompanija koje djeluju na području Bosne i Hercegovine. Za sve dodatne informacije, kupcima je na raspolaganju tim Snabdijevanje EPBiH putem adrese snabdijevanje@epbih.ba</p><br />
             <hr/>
             <h2>Tržište električne energije</h2>
             <p>Od 01.01.2015. godine svi krajnji kupci električne energije su kvalifikovani kupci čime ostvaruju pravo na slobodan izbor svog snabdjevača.</p>
@@ -48,7 +48,7 @@ function Market() {
               <li>Kao postojeći kupac električne energije, ako je potrebno, podnijeti zahtjev za izdavanje saglasnosti za izmjenu uvjeta priključenja ili promjenu priključka za električnu energiju.</li>
             </ul>
             <p>Prije izgradnje svih građevinskih objekata, zakonski propisi nalažu pribavljanje saglasnosti distributera električne energije. Ove saglasnosti su potrebne da bi se obezbijedila sigurnost svih podzemnih instalacija, da novo gradilište ili objekat ne bi ugrozili snabdijevanje postojećih korisnika električne energije, kao i da se planira i obezbijedi legalan priključak za novog krajnjeg kupca/proizvođača električne energije.</p>
-            <br/>
+            <br />
             <p>Za lakše podnošenje zahtjeva i razumijevanje procesa izrade saglasnosti, izgradnje priključka do potpisivanja ugovora, na ovoj stranici možete naći tri grupe tipskih obrazaca, čiji naziv i sadržaj potpuno odgovaraju procesu i specifičnim potrebama novog ili postojećeg krajnjeg kupca/proizvođača električne energije:</p>
             <ul className="obrasci">
               <li>Obrasci zahtjeva koje podnose krajnji kupci/proizvođači</li>
