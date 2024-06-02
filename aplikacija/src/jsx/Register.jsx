@@ -89,7 +89,7 @@ function Register() {
                                 <p className="useragr">Klikom na Registrujte se slažete se s našim Uvjetima, Politikom privatnosti i Politikom kolačića. Možete primati SMS obavještenja od nas i možete odustati u bilo kojem trenutku.</p>
                             </div>
                             <div className="register-buttons">
-                                <button type="submit" className="register-button">Registrujte se</button>
+                                <button type="submit" className="register-buttonl">Registrujte se</button>
                             </div>
                         </form>
                     </div>

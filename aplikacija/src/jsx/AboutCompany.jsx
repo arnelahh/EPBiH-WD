@@ -11,35 +11,35 @@ function AboutCompany() {
           </section>
           <section className="company-info">
             <div className="info-card">
-              <img src="src/slike ep/info.jpeg" alt="Opće informacije"/>
+              <img className="info-img" src="src/slike ep/info.jpeg" alt="Opće informacije"/>
               <div className="info-content">
                 <h2>Opće informacije</h2>
-                <p>Javno preduzeće Elektroprivreda Bosne i Hercegovine d.d. - Sarajevo je dioničko društvo u kome je ...</p>
+                <p>Javno preduzeće Elektroprivreda Bosne i Hercegovine d.d. - Sarajevo je dioničko društvo u kome je cilj da poboljša uslove života...</p>
                 <button className="learn-more">Saznajte više</button>
               </div>
             </div>
             <div className="info-card">
-              <img src="src/slike ep/resize.jpeg" alt="Organizacija kompanije"/>
+              <img className="info-img" src="src/slike ep/resize.jpeg" alt="Organizacija kompanije"/>
               <div className="info-content">
-                <h2>Organizacija kompanije</h2>
+                <h2>Organizacija</h2>
                 <p>JP Elektroprivreda BiH d.d. - Sarajevo je javno preduzeće u skladu sa Zakonom o javnim preduzećima, a
                   ...</p>
                 <button className="learn-more">Saznajte više</button>
               </div>
             </div>
             <div className="info-card">
-              <img src="src/slike ep/propisi.jpg" alt="Propisi"/>
+              <img className="info-img" src="src/slike ep/propisi.jpg" alt="Propisi"/>
               <div className="info-content">
                 <h2>Propisi</h2>
-                <p>U ovom dijelu možete naći propise i zakone koji regulišu osnivanje, poslovanje, upravljanje...</p>
+                <p>U ovom dijelu možete naći propise i zakone koji regulišu osnivanje, poslovanje, upravljanje i osnovne potrebe...</p>
                 <button className="learn-more">Saznajte više</button>
               </div>
             </div>
             <div className="info-card">
-              <img src="src/slike ep/predvorje.jpg" alt="Koncern EPBiH"/>
+              <img className="info-img" src="src/slike ep/predvorje.jpg" alt="Koncern EPBiH"/>
               <div className="info-content">
                 <h2>Koncern EPBiH</h2>
-                <p>Koncern EPBiH, kao oblik povezivanja privrednih društava, uspostavljen je u novembru 2009. g...</p>
+                <p>Koncern EPBiH, kao oblik strukturološkog povezivanja privrednih društava, uspostavljen je u novembru 2009. g...</p>
                 <button className="learn-more">Saznajte više</button>
               </div>
             </div>
