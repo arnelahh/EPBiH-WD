@@ -87,8 +87,7 @@
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-right: 10px;
-    flex: 1;
+    margin: 0;
 }
 
 .report-issue-button {
@@ -105,4 +104,13 @@
 .report-issue-button:hover {
     background-color: #cc0000;
     transform: scale(1.05);
+}
+.generate-button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.profile-row table{
+    margin-top: 20px;
+    margin-bottom: -10px;
 }

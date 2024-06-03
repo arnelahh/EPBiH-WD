@@ -86,8 +86,19 @@ function MyProfile() {
                             </div>
                         </div>
                         <div className="profile-row">
-                            <div className="invoice">Račun 123</div>
-                            <div className="invoice">Račun 124</div>
+                            <table>
+                                <tr>
+                                    <td className="invoice">Racun 123</td>
+                                </tr>
+
+                                <tr>
+                                    <td className="invoice">Racun 124</td>
+                                </tr>
+
+                                <tr>
+                                    <td className="invoice">Racun 125</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </section>
