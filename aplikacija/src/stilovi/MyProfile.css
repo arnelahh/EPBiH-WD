@@ -114,3 +114,10 @@
     margin-top: 20px;
     margin-bottom: -10px;
 }
+.ReportMyProf{
+    margin-left: 4.5%;
+}
+.alinkracun{
+    display: flex;
+    justify-content: space-between;
+}

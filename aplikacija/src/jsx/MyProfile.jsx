@@ -69,8 +69,8 @@ function MyProfile() {
                         </div>
                         <div className="profile-row">
                             <label htmlFor="report">Generiranje izvještaja</label>
-                            <select id="report" name="report">
-                                <option value="report1">Izvještaj no1</option>
+                            <select className="ReportMyProf" id="report" name="report">
+                                <option value="report1">Izvještaj no1</option> <option value="report1">Izvještaj no2</option> <option value="report1">Izvještaj no3</option><option value="report1">Izvještaj no4</option>
                             </select>
                             <button type="button" className="generate-button">Generiraj</button>
                         </div>
@@ -88,15 +88,20 @@ function MyProfile() {
                         <div className="profile-row">
                             <table>
                                 <tr>
-                                    <td className="invoice">Racun 123</td>
+                                    <td  className="invoice alinkracun">Račun 123
+                                        <a href="" className="alinkracun">detaljnije...</a></td>
                                 </tr>
 
                                 <tr>
-                                    <td className="invoice">Racun 124</td>
+                                    <td className="invoice alinkracun">Račun 124 <a href=""
+                                                                                    className="alinkracun">detaljnije...</a>
+                                    </td>
                                 </tr>
 
                                 <tr>
-                                    <td className="invoice">Racun 125</td>
+                                    <td className="invoice alinkracun">Račun 125 <a href=""
+                                                                                    className="alinkracun">detaljnije...</a>
+                                    </td>
                                 </tr>
                             </table>
                         </div>

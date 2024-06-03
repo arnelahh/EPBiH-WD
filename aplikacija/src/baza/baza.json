@@ -96,5 +96,12 @@
     "number": "200300400",
     "password": "1234",
     "confirmPassword": "1234"
+  },
+  {
+    "username": "DanisPLAYZ",
+    "email": "wrkleague@gmail.com",
+    "number": "061206060",
+    "password": "dakimaki9",
+    "confirmPassword": "dakimaki9"
   }
 ]
