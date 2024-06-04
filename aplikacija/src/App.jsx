@@ -30,10 +30,10 @@ function AppContent() {
             </section>
           </Link>
           <nav className="App-nav">
-            <Link to="/">Početna</Link>
-            <Link to="/about-company">O kompaniji</Link>
-            <Link to="/market">O tržištu</Link>
-            <Link to="/kontakt">Kontakt</Link>
+            <div className="dugmad"><Link to="/">Početna</Link>
+              <Link to="/about-company">O kompaniji</Link>
+              <Link to="/market">O tržištu</Link>
+              <Link to="/kontakt">Kontakt</Link></div>
             {!user && <Link to="/login" className="App-login">Prijavite se</Link>}
             {user && <button className="App-logout" onClick={handleLogout}>Odjavite se</button>}
           </nav>
